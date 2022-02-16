@@ -3,7 +3,7 @@ import json
 from misc.Room import Room
 from misc.Session import Session
 
-TIMEOUT = 120
+TIMEOUT = 1800
 
 
 class Server(asyncio.Protocol):
