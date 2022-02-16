@@ -1,6 +1,7 @@
 from cryptography.fernet import Fernet
 from pyDH import DiffieHellman
 import base64
+import json
 
 
 class Session:
